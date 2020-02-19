@@ -1,0 +1,3 @@
+# HI, YOU ARE ON THE DEVELOPMENT FOLDER OF DOT.COLORS
+
+TY for being so curious.

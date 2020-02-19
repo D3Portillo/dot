@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DOT - A container of cool stuff</title>
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./skeleton.css" />
+    <style>
+      html {
+        font-size: calc(8px + 0.5vmin);
+      }
+      body {
+        padding: 0 20vmin;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 100vh;
+      }
+      .tools {
+        background: rgba(0, 0, 0, 0.08);
+        padding: 1em;
+        overflow-x: auto;
+        overflow-y: hidden;
+        margin-top: 4rem;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="border-bottom: solid 2px; margin-top: 2vmax">DOT</h1>
+    <em>
+      DOT is a container of free apps for you, you can find some of this tiny
+      tools at
+      <a href="https://tiny-helpers.dev/" target="_blank">tiny-helpers</a>.
+    </em>
+    <div class="tools">
+      <table class="u-full-width">
+        <thead>
+          <tr>
+            <th>Tool</th>
+            <th>Development url</th>
+            <th>Latest version</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="./colors/">Dot.colors</a></td>
+            <td>
+              <a
+                href="https://github.com/D3Portillo/dot/tree/master/colors"
+                target="_blank"
+                >/dot/tree/master/colors
+              </a>
+            </td>
+            <td>0.0.0</td>
+            <td>A web color converter for noobs(like me)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
